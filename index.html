@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Lingo!</title>
-	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="">
-</head>
-<body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lingo!</title>
 
-	
-	
-	<script src="words-nl.js" type="text/javascript" ></script>
-	<script src="game.js" type="text/javascript" ></script>
-</body>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header></header>
+        <img src="css/lucille.jpg">
+
+        <div id="game_wrapper">
+            <p>Als de kleuren om de letter blauw zijn zit deze letter niet in het woord<br>
+           Als de letter rood word staat hij op de goede plek in het woord.<br>
+            Als de letter geel word zit hij in het woord, maar niet op de goeie plek.</p>
+            
+            
+            <h1 id="word"></h1>
+            <input type="text" id="userInput" value=""><br>
+            <input type="submit" id="submit" value="Submit your guess">
+    
+            <ul>       
+            </ul>
+        </div><table border="0" width="600" id="lingo">
+
+
+    
+
+
+        <script src="words-nl.js" type="text/javascript"></script>
+        <script src="game.js" type="text/javascript"></script>
+    </body>
 </html>

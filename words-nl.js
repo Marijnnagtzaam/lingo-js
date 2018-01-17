@@ -185,6 +185,8 @@ var words = [
 	"jemig",
 	"jeugd",
 	"joint",
+	"joden",
+	"jonko",
 	"jonas",
 	"joule",
 	"koken",

@@ -1,0 +1,44 @@
+* {
+	margin: auto;
+	font-family: "Verdana", sans-serif;
+}
+
+.red {
+	background-color: red;
+	border-style: solid;
+	border-width: 1px;
+	margin: 2px;
+}
+
+.yellow {
+	background-color: yellow;
+	border-style: solid;
+	border-width: 1px;
+	margin: 2px;
+}
+
+.blue {
+	background-color: blue;
+	border-style: solid;
+	border-width: 1px;
+	margin: 2px;
+}
+
+img {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+
+}
+
+header {
+	background-image: url('header.jpg');
+	height:200px;
+	background-repeat: no-repeat;
+	
+}
+
+ul {
+	font-size: 30px;
+
+}
